@@ -25,7 +25,7 @@ io.on('connection', (socket) => {
 
         socket.join(user.room)
 
-        callback();
+        callback(); 
     })
 
 
